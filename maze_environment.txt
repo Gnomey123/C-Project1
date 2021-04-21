@@ -15,6 +15,6 @@
 Key:
 * - open space 
 | - wall
-$ - money
+$ - pot of gold
 @ - outside
 ? - Marker

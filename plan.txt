@@ -44,3 +44,34 @@ ant rules:
 
 1 if theres an adgeastent open space, create an ant at that spot
 2 
+
+~~~~~~~~~~~~~
+TODO: (more will be added or changed later on)
+//please fix any mistakes or errors
+--- Structure phase ---
+1. make the functions for the ant in ant.c (define variables and functions)
+    - set header functions (making the bones) - in progress (labeeb)
+2. implement ADT memory (stack) - memory will hold positions value, so 2 stacks: one holding x value and the other holding y values. (Makeshift 2d vector list?)
+//example: int memory [MAX_SIZE][MAX_SIZE] = { [x1, x2, x3], 
+//                                             [y1, y2, y3] };
+    - then implement ant.c functions, basically adding flesh on the bones  
+3. find a way to load the maze map into the program (maybe use the stack.c file?)
+    - maybe use 2d arrays?
+    - must be read from a txt file, so file reader time
+    - define each character as something appropriate for the ant to recognize, like walls, spaces and gold pot
+4. Testing phase 1?
+    - create a testing program to test ant functionality and interactions with the maze
+    - how will we create interface?
+        - im thinking of using scanf bc it pauses the program
+        - then maybe display the maze and the position of the ant? ascii map
+--- Algorithm phase ---
+//  this is the most troubling part of the project.
+5. the ant has to read a set of instructions from input file
+    - make a program that reads them from input file
+    - find a way to store that set of instruction so that the ant can execute functions based on them
+6. devise an algorithm that will bring us victory
+    - most sweaty task
+7. idk, like test simulate? lol
+    - this time we cant pause because no scanf
+    - maybe command prompt manager something? display the maze, immediately clear, and then redisplay maze? (of course with delay otherwise it would be too fast)
+8. now what? i guess we relax. maybe hope that the code works
