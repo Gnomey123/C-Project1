@@ -7,7 +7,31 @@ Obsicals are 2 things: Wall and a Mark (it cant tell the diffrance)
 
 ant itches:
 
-The ant do something called a check
+The ant do something called a check (in any direction)
+
+If the ant sees open space, it get an "itch".
+There are 4 types of itches for every direction.
+The itch hold how many spaces are avalible infornt.
+
+ONLY ONCE IT GET AN itch, it do a cautious jump or bold jump
+
+cautious jump:
+
+when it gets in itch that gives it a direction and space, it can do a cautious jump.
+what this does is that it moves one space in the direction of the itch.
+
+bold jump:
+bold jump is simular to a cautious jump, but it goes the entire distace to the itch spaces
+
+
+memory:
+
+he can rememer (x,y) locations. there a contest set of max locarion he can remember.
+He can only see the most recent memory he created.
+
+The way he sees his recent memory is to "Pop", retreaving the memory and forgetting, or to "Peek", retreaving the memory and keeping it.
+
+NOTE: It can only remember recent memorys. The way so see one past it is to "Pop", the memory.
 
 
 ant rules:
