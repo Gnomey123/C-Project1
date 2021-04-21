@@ -16,5 +16,5 @@ Key:
 * - open space 
 | - wall
 $ - money
-@ - start
-& - exit/finish/goal
+@ - outside
+? - Marker

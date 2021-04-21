@@ -1,0 +1,16 @@
+
+ant senses:
+
+The ant can only see how many spaces in a drection is avalible.
+
+Obsicals are 2 things: Wall and a Mark (it cant tell the diffrance)
+
+ant itches:
+
+The ant do something called a check
+
+
+ant rules:
+
+1 if theres an adgeastent open space, create an ant at that spot
+2 

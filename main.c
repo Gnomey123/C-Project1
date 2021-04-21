@@ -1,6 +1,6 @@
 struct main
 {
-    /* data */
+    
 };
 
 
