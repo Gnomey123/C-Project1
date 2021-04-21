@@ -24,7 +24,7 @@ bold jump:
 bold jump is simular to a cautious jump, but it goes the entire distace to the itch spaces
 
 
-memory:
+memory:does
 
 he can rememer (x,y) locations. there a contest set of max locarion he can remember.
 He can only see the most recent memory he created.
