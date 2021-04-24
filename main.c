@@ -14,9 +14,13 @@
 int main()
 {
     int x, y;
-	printf("TEST rows: %d\n", getMazeRows());
+
     push(23, 45);
     peek(&x, &y);
     
-    printf("x|y: %d|%d\n", x,y);
+  
+    
+    mazeMatrixGen();
+    
+    printMatrix();
 }

@@ -1,3 +1,12 @@
 //commands from mazeHelper to be used
 
-int getMazeRows();
+int getMax_y();
+
+int getMax_x();
+
+void printMatrix();
+
+void mazeMatrixGen();
+
+
+

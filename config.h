@@ -1,6 +1,6 @@
-#define OpenSpace 1
-#define Wall 2
-#define Gold 3
-#define Marker 4
-#define Outside 5
+#define OpenSpace '*'
+#define Wall '|'
+#define Gold '$'
+#define Marker '?'
+#define Outside '@'
 #define STACK_SIZE 100
