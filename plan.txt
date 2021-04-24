@@ -44,7 +44,7 @@ TODO: (more will be added or changed later on)
 //please fix any mistakes or errors
 --- Structure phase ---
 1. make the functions for the ant in ant.c (define variables and functions)
-    - set header functions (making the bones) - in progress (labeeb)
+    - set header functions (making the bones)
 2. implement ADT memory (stack) - memory will hold positions value, so 2 stacks: one holding x value and the other holding y values. (Makeshift 2d vector list?)
 //example: int memory [MAX_SIZE][MAX_SIZE] = { [x1, x2, x3], 
 //                                             [y1, y2, y3] };
