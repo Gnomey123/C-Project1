@@ -1,36 +1,71 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
 #include "mazeHelper.h"
 #include "config.h"
 #define LENGTH 256
 
-FILE *maze;
+FILE *mazeFile;
 
-void open()
+char maze[LENGTH][LENGTH];
+int maxRows = 0, maxCols = 0;
+
+
+int getMax_x()
 {
-	maze = fopen("maze_environment.txt", "r+");
+	return maxRows -1;
 }
-
-void close()
+int getMax_y()
 {
-	fclose(maze);
+	return maxCols -1;
 }
-
-
-int getMazeRows()
+void mazeMatrixGen()
 {
-	int rows = 0;
-	char str[LENGTH];
-	open();
-	while(fscanf(maze, "%s\n", &str) != EOF)
+	int row = 0, col = 0;
+	char c;
+	
+	mazeFile = fopen("maze_environment.txt", "r+");
+	
+	while((c = getc(mazeFile)) != EOF)
 	{
-		rows++;
+		if(c == '\n')
+		{
+			row++;
+			if(col > maxCols)
+			{
+				maxCols = col;
+			}
+			col = 0;
+		//	printf("%c", c);
+			
+		}
+		else
+		{
+			maze[row][col] = c;
+			col++;
+		//	printf("%c", c);
+		}
+		
+		
 	}
-	return rows;
-
+	fclose(mazeFile);
+	
+	maxRows = row - 1;
+	
 }
 
-void placeChar(int x, int y, char c)
+void printMatrix()
 {
-
+	printf("maxrows: %d, maxcols: %d\n", maxRows, maxCols);
+	int row, col;
+	for(row = 0; row < maxRows; row++)
+	{
+		for(col = 0; col < maxCols; col++)
+		{
+			printf("%c", maze[row][col]);
+		}
+		printf("\n");
+	}
 }
+
+
