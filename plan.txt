@@ -15,12 +15,6 @@ The itch hold how many spaces are avalible infornt.
 
 ONLY ONCE IT GET AN itch, it do a cautious jump or bold jump
 
-
-
-
-test
-
-
 cautious jump:
 
 when it gets in itch that gives it a direction and space, it can do a cautious jump.
