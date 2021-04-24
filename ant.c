@@ -3,7 +3,10 @@ struct Ant {
     int pos_x;  //  position value
     int pos_y;
     int energy;
-    int itch;   //  boolean
+    int itchUp;     //  boolean, specific itch for open space above
+    int itchDown;   //  boolean, specific itch for open space downward
+    int itchLeft;   //  boolean, specific itch for open space to the left
+    int itchRight;  //  boolean, specific itch for open space to the right
 } Michael;
 
 //  the ant marks its current position using a chemical called pheromone.
