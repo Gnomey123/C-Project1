@@ -7,10 +7,10 @@ int full ();
 
 void clear ();
 
-int topf ();
+void peek (int *x, int *y);
 
 int pop ();
 
-void push (int);   // we do not have to specify the name of the parameter
+void push (int x, int y);   // we do not have to specify the name of the parameter
 
 
