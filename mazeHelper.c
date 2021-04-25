@@ -69,42 +69,42 @@ void printMatrix()
 	}
 }
 
-void placeMarker(int x, int y)
+void placeMarker(int r, int c)
 {
-	maze[x][y] = '?';
+	maze[r][c] = '?';
 }
 
-int spacesFree(int x, int y, int direction) // direction key: 1=Up, 2=Right, 3=Down, 4=Left
+int spacesFree(int r, int c, int direction) // direction key: 1=Up, 2=Right, 3=Down, 4=Left
 {
 	int spaces = 0;
 	switch (direction)
 	{
 		case 1:
-			while ((maze[x-1][y] == '*') || (maze[x-1][y] == '$') || (maze[x-1][y] == '@'))
+			while ((maze[r-1][c] == '*') || (maze[r-1][c] == '$') || (maze[r-1][c] == '@'))
 			{
 				spaces++;
-				x--;
+				r--;
 			}
 			break;
 		case 2:
-			while ((maze[x][y+1] == '*') || (maze[x][y+1] == '$') || (maze[x][y+1] == '@'))
+			while ((maze[r][c+1] == '*') || (maze[r][c+1] == '$') || (maze[r][c+1] == '@'))
 			{
 				spaces++;
-				y++;
+				c++;
 			}
 			break;
 		case 3:
-			while ((maze[x+1][y] == '*') || (maze[x+1][y] == '$') || (maze[x+1][y] == '@'))
+			while ((maze[r+1][c] == '*') || (maze[r+1][c] == '$') || (maze[r+1][c] == '@'))
 			{
 				spaces++;
-				x++;
+				r++;
 			}
 			break;
 		case 4:
-			while ((maze[x][y-1] == '*') || (maze[x][y-1] == '$') || (maze[x][y-1] == '@'))
+			while ((maze[r][c-1] == '*') || (maze[r][c-1] == '$') || (maze[r][c-1] == '@'))
 			{
 				spaces++;
-				y--;
+				c--;
 			}
 			break;
 		default:
@@ -114,9 +114,9 @@ int spacesFree(int x, int y, int direction) // direction key: 1=Up, 2=Right, 3=D
 	return spaces;
 } 
 
-void CW_R(int x, int y)
+void CW_R(int r, int c)
 {
-	char charPosition = maze[x][y];
+	char charPosition = maze[r][c];
 	
 	printf("DEBUG: char=%c\n", charPosition);
 	
@@ -124,13 +124,13 @@ void CW_R(int x, int y)
 	switch (charPosition)
 	{
 		case '*':
-			Michael.itchRight = spacesFree(x, y, 2);
+			Michael.itchRight = spacesFree(r, c, 2);
 			break;
 		case '@':
-			Michael.itchRight = spacesFree(x, y, 2);
+			Michael.itchRight = spacesFree(r, c, 2);
 			break;
 		case '$':
-			Michael.itchRight = spacesFree(x, y, 2);
+			Michael.itchRight = spacesFree(r, c, 2);
 			break;
 		default:
 			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
@@ -138,9 +138,9 @@ void CW_R(int x, int y)
 	}
 }
 
-void CW_L(int x, int y)
+void CW_L(int r, int c)
 {
-	char charPosition = maze[x][y];
+	char charPosition = maze[r][c];
 	
 	printf("DEBUG: char=%c\n", charPosition);
 	
@@ -148,13 +148,13 @@ void CW_L(int x, int y)
 	switch (charPosition)
 	{
 		case '*':
-			Michael.itchLeft = spacesFree(x, y, 4);
+			Michael.itchLeft = spacesFree(r, c, 4);
 			break;
 		case '@':
-			Michael.itchLeft = spacesFree(x, y, 4);
+			Michael.itchLeft = spacesFree(r, c, 4);
 			break;
 		case '$':
-			Michael.itchLeft = spacesFree(x, y, 4);
+			Michael.itchLeft = spacesFree(r, c, 4);
 			break;
 		default:
 			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
@@ -162,9 +162,9 @@ void CW_L(int x, int y)
 	}
 }
 
-void CW_U(int x, int y)
+void CW_U(int r, int c)
 {
-	char charPosition = maze[x][y];
+	char charPosition = maze[r][c];
 	
 	printf("DEBUG: char=%c\n", charPosition);
 	
@@ -172,13 +172,13 @@ void CW_U(int x, int y)
 	switch (charPosition)
 	{
 		case '*':
-			Michael.itchUp = spacesFree(x, y, 1);
+			Michael.itchUp = spacesFree(r, c, 1);
 			break;
 		case '@':
-			Michael.itchUp = spacesFree(x, y, 1);
+			Michael.itchUp = spacesFree(r, c, 1);
 			break;
 		case '$':
-			Michael.itchUp = spacesFree(x, y, 1);
+			Michael.itchUp = spacesFree(r, c, 1);
 			break;
 		default:
 			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
@@ -186,9 +186,9 @@ void CW_U(int x, int y)
 	}
 }
 
-void CW_D(int x, int y)
+void CW_D(int r, int c)
 {
-	char charPosition = maze[x][y];
+	char charPosition = maze[r][c];
 	
 	printf("DEBUG: char=%c\n", charPosition);
 	
@@ -196,13 +196,13 @@ void CW_D(int x, int y)
 	switch (charPosition)
 	{
 		case '*':
-			Michael.itchDown = spacesFree(x, y, 3);
+			Michael.itchDown = spacesFree(r, c, 3);
 			break;
 		case '@':
-			Michael.itchDown = spacesFree(x, y, 3);
+			Michael.itchDown = spacesFree(r, c, 3);
 			break;
 		case '$':
-			Michael.itchDown = spacesFree(x, y, 3);
+			Michael.itchDown = spacesFree(r, c, 3);
 			break;
 		default:
 			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
