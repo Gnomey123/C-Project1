@@ -1,43 +1,45 @@
 
+
 ant senses:
 
-The ant can only see how many spaces in a drection is avalible.
+The ant can only see how many spaces in a direction are available.
 
-Obsicals are 2 things: Wall and a Mark (it cant tell the diffrance)
+Opticals are 2 things: Wall and a Mark (it can't tell the difference)
 
 ant itches:
 
-The ant do something called a check (in any direction)
+The ant does something called a check (in any direction)
 
-If the ant sees open space, it get an "itch".
+If the ant sees open space, it gets an "itch."
 There are 4 types of itches for every direction.
-The itch hold how many spaces are avalible infornt.
+The itch holds how many spaces are available in front.
 
-ONLY ONCE IT GET AN itch, it do a cautious jump or bold jump
+ONLY ONCE IT GET AN itch, it does a cautious jump or bold jump
+
 
 
 cautious jump:
 
-when it gets in itch that gives it a direction and space, it can do a cautious jump.
+when it gets an itch that gives it a direction and space, it can do a cautious jump.
 what this does is that it moves one space in the direction of the itch.
 
 bold jump:
-bold jump is simular to a cautious jump, but it goes the entire distace to the itch spaces
+bold jump is similar to a cautious jump, but it goes the entire distance to the itch spaces
 
 
 memory:
 
-he can rememer (x,y) locations. there a contest set of max locarion he can remember.
+he can remember (x,y) locations. there a contest set of the max location he can remember.
 He can only see the most recent memory he created.
 
-The way he sees his recent memory is to "Pop", retreaving the memory and forgetting, or to "Peek", retreaving the memory and keeping it.
+The way he sees his recent memory is to "Pop", retrieving the memory and forgetting, or to "Peek", retrieving the memory and keeping it.
 
-NOTE: It can only remember recent memorys. The way so see one past it is to "Pop", the memory.
+NOTE: It can only remember recent memory. The way to see one past it is to "Pop", the memory.
 
 
 ant rules:
 
-1 if theres an adgeastent open space, create an ant at that spot
+1 if there's an adjacent open space, create that spot as a neighbor 
 2 
 
 ~~~~~~~~~~~~~
@@ -52,13 +54,13 @@ TODO: (more will be added or changed later on)
     - then implement ant.c functions, basically adding flesh on the bones  
 3. find a way to load the maze map into the program (maybe use the stack.c file?)
     - maybe use 2d arrays?
-    - must be read from a txt file, so file reader time
+    - must be read from a text file, so file reader time
     - define each character as something appropriate for the ant to recognize, like walls, spaces and gold pot
 4. Testing phase 1?
     - create a testing program to test ant functionality and interactions with the maze
     - how will we create interface?
-        - im thinking of using scanf bc it pauses the program
-        - then maybe display the maze and the position of the ant? ascii map
+        - I'm thinking of using scanf bc it pauses the program
+        - then maybe display the maze and the position of the ant? ASCII map
 --- Algorithm phase ---
 //  this is the most troubling part of the project.
 5. the ant has to read a set of instructions from input file
