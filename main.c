@@ -15,8 +15,7 @@ int main()
 {
     int x, y;
 
-    push(23, 45);
-    peek(&x, &y);
+
     
   
     
@@ -34,4 +33,23 @@ int main()
     printf("itchLeft: %d\n", Michael.itchLeft);
     printf("itchUp: %d\n", Michael.itchUp);
     printf("itchDown: %d\n", Michael.itchDown);
+    
+    
+   
+    push(10, 13);
+    printf("\n\nMem before push: %d|%d\n", Michael.mem_x, Michael.mem_y);
+    
+    
+    peek();
+     
+    printf("Mem after peek#1: %d|%d\n", Michael.mem_x, Michael.mem_y);
+     
+    push(25, 55);
+    peek();
+    printf("Mem after peek#2: %d|%d\n", Michael.mem_x, Michael.mem_y);
+    
+    pop();
+    printf("Mem after pop: %d|%d\n", Michael.mem_x, Michael.mem_y);
+    peek();
+    printf("Mem after peek#3: %d|%d\n", Michael.mem_x, Michael.mem_y);
 }
