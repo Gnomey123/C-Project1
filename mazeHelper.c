@@ -25,7 +25,7 @@ void mazeMatrixGen()
 	int row = 0, col = 0;
 	char c;
 	
-	mazeFile = fopen("maze_environment.txt", "r+");
+	mazeFile = fopen("maze.txt", "r+");
 	
 	while((c = getc(mazeFile)) != EOF)
 	{
