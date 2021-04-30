@@ -43,7 +43,7 @@ void mazeMatrixGen()
 		else
 		{
 			maze[row][col] = c;
-			col++;
+			col++; 
 		//	printf("%c", c);
 		}
 		
@@ -51,7 +51,7 @@ void mazeMatrixGen()
 	}
 	fclose(mazeFile);
 	
-	maxRows = row - 1;
+	maxRows = row;
 	
 }
 
@@ -71,7 +71,7 @@ void printMatrix()
 
 void placeMarker(int r, int c)
 {
-	maze[r][c] = '?';
+	maze[r][c] = '*';
 }
 
 int spacesFree(int r, int c, int direction) // direction key: 1=Up, 2=Right, 3=Down, 4=Left
@@ -80,28 +80,28 @@ int spacesFree(int r, int c, int direction) // direction key: 1=Up, 2=Right, 3=D
 	switch (direction)
 	{
 		case 1:
-			while ((maze[r-1][c] == '*') || (maze[r-1][c] == '$') || (maze[r-1][c] == '@'))
+			while ((maze[r-1][c] == ' ') || (maze[r-1][c] == '$') || (maze[r-1][c] == '@'))
 			{
 				spaces++;
 				r--;
 			}
 			break;
 		case 2:
-			while ((maze[r][c+1] == '*') || (maze[r][c+1] == '$') || (maze[r][c+1] == '@'))
+			while ((maze[r][c+1] == ' ') || (maze[r][c+1] == '$') || (maze[r][c+1] == '@'))
 			{
 				spaces++;
 				c++;
 			}
 			break;
 		case 3:
-			while ((maze[r+1][c] == '*') || (maze[r+1][c] == '$') || (maze[r+1][c] == '@'))
+			while ((maze[r+1][c] == ' ') || (maze[r+1][c] == '$') || (maze[r+1][c] == '@'))
 			{
 				spaces++;
 				r++;
 			}
 			break;
 		case 4:
-			while ((maze[r][c-1] == '*') || (maze[r][c-1] == '$') || (maze[r][c-1] == '@'))
+			while ((maze[r][c-1] == ' ') || (maze[r][c-1] == '$') || (maze[r][c-1] == '@'))
 			{
 				spaces++;
 				c--;
@@ -123,7 +123,7 @@ void CW_R(int r, int c)
 	
 	switch (charPosition)
 	{
-		case '*':
+		case ' ':
 			Michael.itchRight = spacesFree(r, c, 2);
 			break;
 		case '@':
@@ -147,7 +147,7 @@ void CW_L(int r, int c)
 	
 	switch (charPosition)
 	{
-		case '*':
+		case ' ':
 			Michael.itchLeft = spacesFree(r, c, 4);
 			break;
 		case '@':
@@ -171,7 +171,7 @@ void CW_U(int r, int c)
 	
 	switch (charPosition)
 	{
-		case '*':
+		case ' ':
 			Michael.itchUp = spacesFree(r, c, 1);
 			break;
 		case '@':
@@ -195,7 +195,7 @@ void CW_D(int r, int c)
 	
 	switch (charPosition)
 	{
-		case '*':
+		case ' ':
 			Michael.itchDown = spacesFree(r, c, 3);
 			break;
 		case '@':

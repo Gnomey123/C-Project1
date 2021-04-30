@@ -1,0 +1,17 @@
+also, replace # with |
+
+First, run:
+(MUST BE ODD)
+python maze.py [r+2] [c+2] > [yourOutputFile.txt]
+
+Then, do the following:
+
+both cornors add start and end chars 'x' and 'o', remove if needed.
+
+I recomend using sublime text to select cursor upward, then delete the colom of bad stuff on the right.
+
+delete the last row, and your set.
+
+ex, to get a 99x99 maze:
+
+python maze.py 97 97 > maze.txt

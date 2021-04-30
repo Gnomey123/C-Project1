@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=
+OverrideOutputName=Project1.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -27,9 +27,9 @@ CommandLine=
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=0
-CompilerSettings=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;12;0;0;0
-UnitCount=11
+CompilerSet=1
+CompilerSettings=0;0;0;0;0;0;6;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0
+UnitCount=12
 
 [VersionInfo]
 Major=1
@@ -39,14 +39,14 @@ Build=0
 LanguageID=1033
 CharsetID=1252
 CompanyName=
-FileVersion=
+FileVersion=1.0.0.0
 FileDescription=Developed using the Dev-C++ IDE
 InternalName=
 LegalCopyright=
 LegalTrademarks=
 OriginalFilename=
 ProductName=
-ProductVersion=
+ProductVersion=1.0.0.0
 AutoIncBuildNr=0
 SyncProduct=1
 
@@ -149,7 +149,17 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit11]
-FileName=mazegen\mazegen.c
+FileName=mazegen\mazeGen.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit12]
+FileName=mazegen\mazeGen.h
 CompileCpp=0
 Folder=
 Compile=1
