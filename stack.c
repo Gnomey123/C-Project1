@@ -32,7 +32,7 @@ void clear () {
 }
 
 // return the value on the stack's top but does not remove it
-void peek (*x, *y) {
+void peek (int *x,int *y) {
 	if(empty() == 1)
 	{
 		printf("\n[ERROR] peeked with emtpy memory!\n");
@@ -56,8 +56,8 @@ void pop (int *x, int *y) {
 	{
 	
 
-	*x = stack [ top - 1][0];
-	*y = stack [ top - 1][1];
+	x = stack [ top - 1][0];
+	y = stack [ top - 1][1];
 	
 	if(top > 0)
 	top--;                        // changes the top of the stack; removes the value on top
