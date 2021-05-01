@@ -18,7 +18,7 @@ int main()
 
     
   
-    mazeGen(99, 99);
+    //mazeGen(99, 99);
     
     mazeMatrixGen();
     

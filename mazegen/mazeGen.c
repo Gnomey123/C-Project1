@@ -19,7 +19,7 @@ void makeMazeFile(const char *maze, int width, int height) {
       for(x = 0; x < width; x++) {
          switch(maze[y * width + x]) {
          case 1:  fputc('|', out);  break;
-         case 2:  printf("<>");  break;
+         case 2:  fputc('$', out);  break;
          default: fputc(' ', out);  break;
          }
       }
@@ -35,7 +35,7 @@ void CarveMaze(char *maze, int width, int height, int x, int y) {
    int x2, y2;
    int dx, dy;
    int dir, count;
-
+	int addGold;
    dir = rand() % 4;
    count = 0;
    while(count < 4) {
@@ -52,8 +52,24 @@ void CarveMaze(char *maze, int width, int height, int x, int y) {
       y2 = y1 + dy;
       if(   x2 > 0 && x2 < width && y2 > 0 && y2 < height
          && maze[y1 * width + x1] == 1 && maze[y2 * width + x2] == 1) {
-         maze[y1 * width + x1] = 0;
-         maze[y2 * width + x2] = 0;
+         if((rand() % 100) < 10)
+         {
+         maze[y1 * width + x1] = 2;	
+		 }
+		 else
+		 {
+		 maze[y1 * width + x1] = 0;		
+		 }
+		 
+		 if((rand() % 100) < 10)
+		 {
+		 maze[y2 * width + x2] = 2;
+		 }
+		 else
+		 {
+		 maze[y2 * width + x2] = 0;	
+		 }
+         
          x = x2; y = y2;
          dir = rand() % 4;
          count = 0;
