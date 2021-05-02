@@ -52,7 +52,7 @@ void CarveMaze(char *maze, int width, int height, int x, int y) {
       y2 = y1 + dy;
       if(   x2 > 0 && x2 < width && y2 > 0 && y2 < height
          && maze[y1 * width + x1] == 1 && maze[y2 * width + x2] == 1) {
-         if((rand() % 100) < 10)
+         if((rand() % 100) < 15)
          {
          maze[y1 * width + x1] = 2;	
 		 }
@@ -61,7 +61,7 @@ void CarveMaze(char *maze, int width, int height, int x, int y) {
 		 maze[y1 * width + x1] = 0;		
 		 }
 		 
-		 if((rand() % 100) < 10)
+		 if((rand() % 100) < 15)
 		 {
 		 maze[y2 * width + x2] = 2;
 		 }
