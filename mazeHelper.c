@@ -3,7 +3,7 @@
 #include <string.h>
 #include "mazeHelper.h"
 #include "config.h"
-#include "antStruct.h"
+#include "Michael.h"
 #define LENGTH 256
 
 FILE *mazeFile;
@@ -20,12 +20,12 @@ int getMax_y()
 {
 	return maxCols -1;
 }
-void mazeMatrixGen()
+void mazeMatrixGen(char *fileDir)
 {
 	int row = 0, col = 0;
 	char c;
 	
-	mazeFile = fopen("maze.txt", "r+");
+	mazeFile = fopen(fileDir, "r+");
 	
 	while((c = getc(mazeFile)) != EOF)
 	{
@@ -76,7 +76,7 @@ void placeMarker(int r, int c)
 
 int spacesFree(int r, int c, int direction) // direction key: 1=Up, 2=Right, 3=Down, 4=Left
 {
-	int spaces = 0;
+	int spaces = -1;
 	switch (direction)
 	{
 		case 1:
@@ -124,13 +124,13 @@ void CW_R(int r, int c)
 	switch (charPosition)
 	{
 		case ' ':
-			Michael.itchRight = spacesFree(r, c, 2);
+			itchRight = spacesFree(r, c, 2);
 			break;
 		case '@':
-			Michael.itchRight = spacesFree(r, c, 2);
+			itchRight = spacesFree(r, c, 2);
 			break;
 		case '$':
-			Michael.itchRight = spacesFree(r, c, 2);
+			itchRight = spacesFree(r, c, 2);
 			break;
 		default:
 			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
@@ -148,13 +148,13 @@ void CW_L(int r, int c)
 	switch (charPosition)
 	{
 		case ' ':
-			Michael.itchLeft = spacesFree(r, c, 4);
+			itchLeft = spacesFree(r, c, 4);
 			break;
 		case '@':
-			Michael.itchLeft = spacesFree(r, c, 4);
+			itchLeft = spacesFree(r, c, 4);
 			break;
 		case '$':
-			Michael.itchLeft = spacesFree(r, c, 4);
+			itchLeft = spacesFree(r, c, 4);
 			break;
 		default:
 			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
@@ -172,13 +172,13 @@ void CW_U(int r, int c)
 	switch (charPosition)
 	{
 		case ' ':
-			Michael.itchUp = spacesFree(r, c, 1);
+			itchUp = spacesFree(r, c, 1);
 			break;
 		case '@':
-			Michael.itchUp = spacesFree(r, c, 1);
+			itchUp = spacesFree(r, c, 1);
 			break;
 		case '$':
-			Michael.itchUp = spacesFree(r, c, 1);
+			itchUp = spacesFree(r, c, 1);
 			break;
 		default:
 			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
@@ -196,19 +196,26 @@ void CW_D(int r, int c)
 	switch (charPosition)
 	{
 		case ' ':
-			Michael.itchDown = spacesFree(r, c, 3);
+			itchDown = spacesFree(r, c, 3);
 			break;
 		case '@':
-			Michael.itchDown = spacesFree(r, c, 3);
+			itchDown = spacesFree(r, c, 3);
 			break;
 		case '$':
-			Michael.itchDown = spacesFree(r, c, 3);
+			itchDown = spacesFree(r, c, 3);
 			break;
 		default:
 			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
 			break;
 	}
 }
+
+/*******
+
+
+
+*******/
+
 
 
 

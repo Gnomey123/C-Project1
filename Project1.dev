@@ -51,17 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=ant.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit2]
-FileName=antStruct.h
+FileName=Michael.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -71,16 +61,6 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=config.h
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit4]
 FileName=main.c
 CompileCpp=0
 Folder=
@@ -90,8 +70,9 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit5]
+[Unit4]
 FileName=maze_environment.txt
+CompileCpp=0
 Folder=
 Compile=0
 Link=0
@@ -99,17 +80,17 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit6]
+[Unit5]
 FileName=mazeHelper.c
-CompileCpp=0
 Folder=
 Compile=1
 Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
+CompileCpp=0
 
-[Unit7]
+[Unit6]
 FileName=mazeHelper.h
 CompileCpp=0
 Folder=
@@ -119,7 +100,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit8]
+[Unit7]
 FileName=stack.c
 CompileCpp=0
 Folder=
@@ -129,7 +110,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit9]
+[Unit8]
 FileName=stack.h
 CompileCpp=0
 Folder=
@@ -139,8 +120,9 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit10]
+[Unit9]
 FileName=maze_environment_template.txt
+CompileCpp=0
 Folder=
 Compile=0
 Link=0
@@ -148,8 +130,18 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit11]
+[Unit10]
 FileName=mazegen\mazeGen.c
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+CompileCpp=0
+
+[Unit11]
+FileName=mazegen\mazeGen.h
 CompileCpp=0
 Folder=
 Compile=1
@@ -159,7 +151,17 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit12]
-FileName=mazegen\mazeGen.h
+FileName=Michael.h
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=config.h
 CompileCpp=0
 Folder=
 Compile=1
