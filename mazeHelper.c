@@ -74,9 +74,10 @@ void placeMarker(int r, int c)
 	maze[r][c] = '*';
 }
 
-int spacesFree(int r, int c, int direction) // direction key: 1=Up, 2=Right, 3=Down, 4=Left
+int spacesFree(int r, int c, int direction) // direction key: 1=Up, 2=Right, 3=Down, 4=Left NEED TO FIX CW
 {
 	int spaces = -1;
+	int isMarker = 0;
 	switch (direction)
 	{
 		case 1:
@@ -96,6 +97,7 @@ int spacesFree(int r, int c, int direction) // direction key: 1=Up, 2=Right, 3=D
 		case 3:
 			while ((maze[r+1][c] == ' ') || (maze[r+1][c] == '$') || (maze[r+1][c] == '@'))
 			{
+				
 				spaces++;
 				r++;
 			}

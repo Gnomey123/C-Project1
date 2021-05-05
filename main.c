@@ -10,7 +10,6 @@
 #include "mazegen/mazeGen.h"
 
 
-
 int main()
 {
     int x, y;
