@@ -25,6 +25,7 @@ placeMarker(pos_r, pos_c);
 //  i.e. If Michael locates in (x, y), it will move to (x + 1, y). 
 void MOVE_F()
 {
+pos_c++;
 
 }
 
