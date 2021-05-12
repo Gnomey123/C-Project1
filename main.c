@@ -31,11 +31,10 @@ int main()
     BJPI();
     
     
-   /* if(x=1)
-    {
-    	/CW_R(r, c);
-    	
-    	
-	}
-	*/
+   /*
+   //   I wanna see the ant moving in the maze, so i guess 
+   viewMapMatrix(); // shows the maze with the ant's location (which is why i made it a different )
+   sleep(1); // give a chance for the user to see the maze
+   Clrscr();    // clears screen, basically animating the process
+   */
 }
