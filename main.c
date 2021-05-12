@@ -30,11 +30,23 @@ int main()
     
     BJPI();
     
-    
+
    /*
-   //   I wanna see the ant moving in the maze, so i guess 
-   viewMapMatrix(); // shows the maze with the ant's location (which is why i made it a different )
-   sleep(1); // give a chance for the user to see the maze
-   Clrscr();    // clears screen, basically animating the process
+   //   I wanna see the ant moving in the maze to make it easier to keep track of our algorithm, so maybe
+   while(1)
+   {
+        if(killCommand())
+        {
+            break;
+        }
+
+        followAlgorithm();   // reads algorithm list (array of commands) and executes functions according to their id
+
+        viewMapMatrix(); // shows the maze with the ant's location (which is why i made it a different )
+        sleep(1); // give a chance for the user to see the maze
+        Clrscr();    // clears screen, basically animating the process
+   }
    */
+
+    printMatrix();
 }

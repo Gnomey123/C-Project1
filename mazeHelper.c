@@ -69,6 +69,23 @@ void printMatrix()
 	}
 }
 
+//	same as printMatrix but doesn't show row/col detail and shows ant location
+void viewMapMatrix()
+{
+	int row, col;
+	for(row = 0; row < maxRows; row++)
+	{
+		for(col = 0; col < maxCols; col++)
+		{
+			if(pos_r == row && pos_c == col)
+				printf("A");	// the Antn
+			else
+				printf("%c", maze[row][col]);
+		}
+		printf("\n");
+	}
+}
+
 void placeMarker(int r, int c)
 {
 	maze[r][c] = '*';
