@@ -14,20 +14,19 @@ int main()
 {
     int x, y;
 	//char *fileDir = "maze_environment.txt";
-
-    char *fileDir = "maze.txt";
+    char fileDir[LENGTH] = "maze.txt";
   
-    mazeGen(99, 99);
+    //mazeGen(99, 99);
     
-    mazeMatrixGen(fileDir);
-    printMatrix();
+    mazeMatrixGen(&fileDir);
+    //printMatrix();
 
-    pos_r = 7;
-    pos_c = 4;
+    pos_r = 1;
+    pos_c = 5;
     
     CWR();
-    
-    BJPI();
+    printf("itchRight=%d , spaces=%d\n",itchRight, spaces);
+    //BJPI();
     
 
    /*
@@ -47,5 +46,5 @@ int main()
    }
    */
 
-    printMatrix();
+    //printMatrix();
 }

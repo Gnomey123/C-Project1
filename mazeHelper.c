@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-#include "mazeHelper.h"
 #include "config.h"
 #include "Michael.h"
-#define LENGTH 256
 
 FILE *mazeFile;
 
@@ -91,142 +89,132 @@ void placeMarker(int r, int c)
 	maze[r][c] = '*';
 }
 
-int spacesFree(int r, int c, int direction) // direction key: 1=Up, 2=Right, 3=Down, 4=Left NEED TO FIX CW
-{
-	int spaces = -1;
-	int isMarker = 0;
-	switch (direction)
-	{
-		case 1:
-			while ((maze[r-1][c] == ' ') || (maze[r-1][c] == '$') || (maze[r-1][c] == '@'))
-			{
-				spaces++;
-				r--;
-			}
-			break;
-		case 2:
-			while ((maze[r][c+1] == ' ') || (maze[r][c+1] == '$') || (maze[r][c+1] == '@'))
-			{
-				spaces++;
-				c++;
-			}
-			break;
-		case 3:
-			while ((maze[r+1][c] == ' ') || (maze[r+1][c] == '$') || (maze[r+1][c] == '@'))
-			{
-				
-				spaces++;
-				r++;
-			}
-			break;
-		case 4:
-			while ((maze[r][c-1] == ' ') || (maze[r][c-1] == '$') || (maze[r][c-1] == '@'))
-			{
-				spaces++;
-				c--;
-			}
-			break;
-		default:
-			printf("\n[ERROR] illegal spacesFree direction called\n");
-			break;
-	}
-	return spaces;
-} 
+
 
 void CW_R(int r, int c)
 {
-	char charPosition = maze[r][c];
+	char charPosition = ' ';
+	int spacesAvalible = 0;
+	//printf("DEBUG: char=%c\n", charPosition);
 	
-	printf("DEBUG: char=%c\n", charPosition);
 	
-	
-	switch (charPosition)
+	while((charPosition == ' ') || (charPosition == '@') || (charPosition == '$')) 
 	{
-		case ' ':
-			itchRight = spacesFree(r, c, 2);
-			break;
-		case '@':
-			itchRight = spacesFree(r, c, 2);
-			break;
-		case '$':
-			itchRight = spacesFree(r, c, 2);
-			break;
-		default:
-			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
-			break;
+		c++;
+		charPosition = maze[r][c];
+		switch (charPosition)
+		{
+			case '|':
+				spaces = spacesAvalible;
+				itchRight = 1;
+				return;
+			case '#': //if marker is in path, dont make itch
+				itchRight = 0;
+				spaces = 0;
+				return;
+			default:
+				spacesAvalible++;
+		}
+		
+		
 	}
+	
+	
+	
 }
 
 void CW_L(int r, int c)
 {
-	char charPosition = maze[r][c];
+	char charPosition = ' ';
+	int spacesAvalible = 0;
+	//printf("DEBUG: char=%c\n", charPosition);
 	
-	printf("DEBUG: char=%c\n", charPosition);
 	
-	
-	switch (charPosition)
+	while((charPosition == ' ') || (charPosition == '@') || (charPosition == '$')) 
 	{
-		case ' ':
-			itchLeft = spacesFree(r, c, 4);
-			break;
-		case '@':
-			itchLeft = spacesFree(r, c, 4);
-			break;
-		case '$':
-			itchLeft = spacesFree(r, c, 4);
-			break;
-		default:
-			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
-			break;
+		c--;
+		charPosition = maze[r][c];
+		switch (charPosition)
+		{
+			case '|':
+				spaces = spacesAvalible;
+				itchLeft = 1;
+				return;
+			case '#': //if marker is in path, dont make itch
+				itchLeft = 0;
+				spaces = 0;
+				return;
+			default:
+				spacesAvalible++;
+		}
+		
+		
 	}
+	
+	
+	
 }
 
 void CW_U(int r, int c)
 {
-	char charPosition = maze[r][c];
+	char charPosition = ' ';
+	int spacesAvalible = 0;
+	//printf("DEBUG: char=%c\n", charPosition);
 	
-	printf("DEBUG: char=%c\n", charPosition);
 	
-	
-	switch (charPosition)
+	while((charPosition == ' ') || (charPosition == '@') || (charPosition == '$')) 
 	{
-		case ' ':
-			itchUp = spacesFree(r, c, 1);
-			break;
-		case '@':
-			itchUp = spacesFree(r, c, 1);
-			break;
-		case '$':
-			itchUp = spacesFree(r, c, 1);
-			break;
-		default:
-			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
-			break;
+		r++;
+		charPosition = maze[r][c];
+		switch (charPosition)
+		{
+			case '|':
+				spaces = spacesAvalible;
+				itchUp = 1;
+				return;
+			case '#': //if marker is in path, dont make itch
+				itchUp = 0;
+				spaces = 0;
+				return;
+			default:
+				spacesAvalible++;
+		}
+		
+		
 	}
+	
+	
 }
 
 void CW_D(int r, int c)
 {
-	char charPosition = maze[r][c];
+	char charPosition = ' ';
+	int spacesAvalible = 0;
+	//printf("DEBUG: char=%c\n", charPosition);
 	
-	printf("DEBUG: char=%c\n", charPosition);
 	
-	
-	switch (charPosition)
+	while((charPosition == ' ') || (charPosition == '@') || (charPosition == '$')) 
 	{
-		case ' ':
-			itchDown = spacesFree(r, c, 3);
-			break;
-		case '@':
-			itchDown = spacesFree(r, c, 3);
-			break;
-		case '$':
-			itchDown = spacesFree(r, c, 3);
-			break;
-		default:
-			printf("\n[WARNING] CW called at illegal location: (%d|%d)\n");
-			break;
+		r--;
+		charPosition = maze[r][c];
+		switch (charPosition)
+		{
+			case '|':
+				spaces = spacesAvalible;
+				itchDown = 1;
+				
+				return;
+			case '#': //if marker is in path, dont make itch
+				itchDown = 0;
+				spaces = 0;
+				return;
+			default:
+				spacesAvalible++;
+		}
+		
+		
 	}
+	
 }
 
 /*******

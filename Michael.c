@@ -114,10 +114,12 @@ void PUSH()
 // memory. This way Michael remembers the position, but then it immediately forgets the
 // position too. 
 //  the issue with this is that we need the function to return 2 variables, but how? I want to use struct but the problem is we need the struct to be global, so that the main program can interact. i guess that we need to make a separate c file for handling data types like struct and stuff
+
+//update (from NOAM): the pop command already deals with this by adding the popped values to mem_r and mem_c respectfully. PEEK also does this
 void POP()
 {
 	consume(4);
-
+	
 	pop(&mem_r, &mem_c);
 }
 
