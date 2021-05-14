@@ -13,6 +13,7 @@ int itchDown;   //  (0: no itch, 1 itch)
 int itchLeft;   //  (0: no itch, 1 itch)
 int itchRight;  //  (0: no itch, 1 itch)
 int spaces;     // whenever there's an itch, spaces will represnet how much space there is (0 being wall in front, 1+ being spaces to move)
+int gold;       // for the gold collected
 
 //  the ant marks its current position using a chemical called pheromone.
 void MARK()

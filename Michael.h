@@ -36,3 +36,4 @@ extern int mem_c;
 extern int mem_r;
 extern int pos_c;
 extern int pos_r;
+extern int gold; 

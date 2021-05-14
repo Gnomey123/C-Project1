@@ -47,4 +47,116 @@ int main()
    */
 
     //printMatrix();
+    
+    
+    
+    
+    
+    while(alive)
+    {
+		
+	    exploring = 1;
+	    while(exploring)
+	    {
+		
+	
+	    	if(leftLeastSpace)
+	    	{
+	    		//*Jump to left*
+	    		
+	    		if(memEmpty)
+	    		{
+	    			//*remember spot*
+	    			//*move 1 right, place marker, peek and backtrace to mem to go to original spot*
+				}
+	    		
+	    		//check if deadend
+				if((rightAvl + upAvl + downAvl == 0))
+				{
+					//*pop and go to last spot and place marker*
+					//*keep going to last spot until mem empty*
+				}
+				else if(((leftAvl + upAvl + downAvl > 1))) 
+				{
+					//*remember pos*
+				}
+			}
+			
+			
+			if(rightLeastSpace)
+	    	{
+	    		//*Jump to right*
+	    		
+	    		if(memEmpty)
+	    		{
+	    			//*remember spot*
+	    			//*move 1 left, place marker, peek and backtrace to mem to go to original spot*
+				}
+	    		
+	    		//check if deadend	    		
+				if((leftAvl + upAvl + downAvl == 0))
+				{
+					//*pop and go to last spot and place marker*
+					//*keep going to last spot until mem empty*
+				}
+				else if(((leftAvl + upAvl + downAvl > 1))) 
+				{
+					//*remember pos*
+				}
+			}
+			
+			
+			if(upLeastSpace)
+	    	{
+				//*Jump up*
+	
+				if(memEmpty)
+	    		{
+	    			//*remember spot*
+	    			//*move 1 down, place marker, peek and backtrace to mem to go to original spot*
+				}
+				
+	    		//check if deadend				
+				if((rightAvl + leftAvl + downAvl == 0))
+				{
+					exploring = 0;
+					//*pop and go to last spot and place marker*
+					//*keep going to last spot until mem empty*
+				} 
+				else if(((rightAvl + leftAvl + downAvl > 1))) 
+				{
+					//*remember pos*
+				}
+			}
+			
+			
+			if(downLeastSpace)
+	    	{
+	    		//*Jump down*
+	
+	
+				if(memEmpty)
+	    		{
+	    			//*remember spot*
+	    			//*move 1 up, place marker, peek and backtrace to mem to go to original spot*
+				}
+				
+	    		//check if deadend				
+				if((rightAvl + upAvl + downAvl == 0))
+				{
+					//*pop and go to last spot and place marker*
+					//*keep going to last spot until mem empty*
+				}
+				else if(((rightAvl + upAvl + downAvl > 1))) 
+				{
+					//*remember pos*
+				}
+			}
+			
+		} // not exploring anymore
+	    
+	
+		}
+	}
+    
 }
