@@ -1,12 +1,19 @@
+#include <stdio.h>
+#include "config.h"
 /* This file was automatically generated.  Do not edit! */
 #undef INTERFACE
-#include "config.h"
+extern int itchDown;
 void CW_D(int r,int c);
+extern int itchUp;
 void CW_U(int r,int c);
+extern int itchLeft;
 void CW_L(int r,int c);
+extern int itchRight;
+extern int spaces;
 void CW_R(int r,int c);
-int spacesFree(int r,int c,int direction);
 void placeMarker(int r,int c);
+extern int pos_c;
+extern int pos_r;
 void viewMapMatrix();
 void printMatrix();
 void mazeMatrixGen(char *fileDir);

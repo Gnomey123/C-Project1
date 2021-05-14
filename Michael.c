@@ -8,11 +8,11 @@ int pos_c;
 int mem_r;  //  positions of the memory when called
 int mem_c;
 int energy;
-int itchUp;     //  (-1: no itch, 0 or above itch w/ spaces: itch w/ spaces avalible) itch for open space above
-int itchDown;   //  (-1: no itch, 0 or above itch w/ spaces: itch w/ spaces avalible) itch for open space downward
-int itchLeft;   //  (-1: no itch, 0 or above itch w/ spaces: itch w/ spaces avalible) itch for open space to the left
-int itchRight; 
-int spaces;
+int itchUp;     //  (0: no itch, 1 itch)
+int itchDown;   //  (0: no itch, 1 itch)
+int itchLeft;   //  (0: no itch, 1 itch)
+int itchRight;  //  (0: no itch, 1 itch)
+int spaces;     // whenever there's an itch, spaces will represnet how much space there is (0 being wall in front, 1+ being spaces to move)
 
 //  the ant marks its current position using a chemical called pheromone.
 void MARK()
@@ -24,30 +24,35 @@ void MARK()
 // the ant is oriented weirdly. I would suggest taking it to the prof to proofcheck
 //  moves ANT one position forward.
 //  i.e. If Michael locates in (x, y), it will move to (x + 1, y). 
-void MOVE_F()
+void MOVE_L()
 {
 	consume(3);
+	pos_c--;
 }
 
 //  moves ANT one position backward.
 //  i.e. If Michael locates in (x, y), it will move to (x - 1, y). 
-void MOVE_B()
+void MOVE_R()
 {
 	consume(3);
+	pos_c++;
 }
 
 //  moves ANT one position to the left.
 //  i.e. If Michael locates in (x, y), it will move to (x, y + 1). 
-void MOVE_L()
+void MOVE_U()
 {
 	consume(3);
+	pos_r--;
 }
 
 //  moves ANT one position to the right.
 //  i.e. If Michael locates in (x, y), it will move to (x, y - 1). 
-void MOVE_R()
+void MOVE_D()
 {
 	consume(3);
+	pos_r++;
+	
 }
 
 //– Michael checks if the next locations (until meeting a wall) to the left are pheromone
@@ -148,94 +153,99 @@ void CLEAR()
 void BJPI()
 {
 	consume(5);
-
-	int jumpDir=-1;
-	int numItches = 0;
-
-	if (itchUp >= 0) numItches++;
-	if (itchDown >= 0) numItches++;
-	if (itchLeft >= 0) numItches++;
-	if (itchRight >= 0) numItches++;
-
-	if( numItches == 0)
+	
+	if((itchLeft+itchRight+itchUp+itchDown) > 1)
 	{
-		printf("\n[WARNNING] Bold Jump called with no itches active\n");
+		printf("\n[ERROR] Jump called w/ multible Itches\n");
 		return;
 	}
-	else if(numItches > 1)
+	if((itchLeft+itchRight+itchUp+itchDown) == 0)
 	{
-		printf("\n[ERROR] Bold Jump called with multiple itches active\n");
+		printf("\n[ERROR] Jump called w/ no Itches\n");
 		return;
 	}
+	
+	if(itchUp == 1)
+	{
+		while(spaces > 0)
+		{
+			pos_r--;
+			spaces--;
+		}
+	}
+	else if(itchDown == 1)
+	{
+		while(spaces > 0)
+		{
+			pos_r++;
+			spaces--;
+		}	
+	}
+	else if(itchLeft == 1)
+	{
+		while(spaces > 0)
+		{
+			pos_c--;
+			spaces--;
+		}
+	}
+	else if(itchRight == 1)
+	{
+		while(spaces > 0)
+		{
+			pos_c++;
+			spaces--;
+		}		
+	}
 
-	jumpDir =( (1*(itchLeft+1)) + (2*(itchRight+1)) + (3*(itchUp+1)) + (4*(itchDown+1)) );
-	printf("debug: left=1, right=2, up=3, down=4, jumpDir=[%d]\n", jumpDir);
-
-	antJump(jumpDir, itchLeft, itchDown, itchUp, itchDown);
 }
-
 // same but will only jump to (pos_x +- 1) and (pos_y +- 1) position. determine which way to move
 void CJPI()
 {
 	consume(3);
 
-	int jumpDir=-1;
-	int numItches = 0;
-
-	if (itchUp >= 0) numItches++;
-	if (itchDown >= 0) numItches++;
-	if (itchLeft >= 0) numItches++;
-	if (itchRight >= 0) numItches++;
-
-
-	if( numItches == 0)
+	if((itchLeft+itchRight+itchUp+itchDown) > 1)
 	{
-		printf("\n[WARNNING] Bold Jump called with no itches active\n");
+		printf("\n[ERROR] Jump called w/ multible Itches\n");
 		return;
 	}
-	else if(numItches > 1)
+	
+	if((itchLeft+itchRight+itchUp+itchDown) == 0)
 	{
-		printf("\n[ERROR] Bold Jump called with multiple itches active\n");
+		printf("\n[ERROR] Jump called w/ no Itches\n");
 		return;
 	}
-	jumpDir =( (1*(itchLeft+1)) + (2*(itchRight+1)) + (3*(itchUp+1)) + (4*(itchDown+1)) );
-	printf("debug: left=1, right=2, up=3, down=4, jumpDir=[%d]\n", jumpDir);
+	
+	if(itchUp == 1)
+	{
+		spaces--;
+	}
+	else if(itchDown == 1)
+	{
+		pos_r++;
+	}
+	else if(itchLeft == 1)
+	{
+		pos_c--;
+	}
+	else if(itchRight == 1)
+	{
+		pos_c++;
+	}
 
-	antJump(jumpDir, 1, 1, 1, 1);	//	just one step for the ant
-}
-
-// other pograms i guess. im done for the day. bye
-
-//	Ant jump. Also clears itch on whatever direction. This requires the itch to be valid i.e. cannot be into a wall or else bruh
-void antJump(int jumpDir, int left, int right, int up, int down)
-{
-	if(jumpDir == 1)
-	{
-		pos_c += left;
-		itchLeft = 0;
-	}
-	else if(jumpDir == 2)
-	{
-		pos_c += right;
-		itchRight = 0;
-	}
-	else if(jumpDir == 3)
-	{
-		pos_r += up;
-		itchUp = 0;
-	}
-	else if(jumpDir == 4)
-	{
-		pos_r += down;
-		itchDown = 0;
-	}
 }
 
 //	backtracks to the position that is retrieved from the memory, such as using POP or PEEK.
 //	Example: Michael executes a pop and finds the position <4,4>. Backtrack will move Michael back to this position
 void BACKTRACK()
 {
-
+	consume(2); //(NOAM) not sure if it should consume energy (prof seems to forget it exists). I simply put 6 case its part of 69 hehe gottem
+				//edit: 2 makes more sense when thinking about the fact that Poping takes 4 energy
+	
+	pos_r = mem_r;
+	pos_c = mem_c;
+	
+	
 }
 
 // func that consumes energy.
