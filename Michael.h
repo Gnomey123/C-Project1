@@ -1,27 +1,38 @@
 /* This file was automatically generated.  Do not edit! */
 #undef INTERFACE
+int killCommand();
+void BACKTRACK();
 void CJPI();
 void BJPI();
+void clear();
 void CLEAR();
 void PEEK();
+void pop();
 void POP();
+void push();
 void PUSH();
-void CWB();
-void CWF();
+void CW_D(int r,int c);
+void CWD();
+void CW_U(int r,int c);
+void CWU();
+void CW_R(int r,int c);
 void CWR();
+void CW_L(int r,int c);
 void CWL();
+void MOVE_D();
+void MOVE_U();
 void MOVE_R();
 void MOVE_L();
-void MOVE_B();
-void MOVE_F();
+void placeMarker(int r,int c);
+void consume(int cost);
 void MARK();
-
-int pos_r;  //  position value
-int pos_c;
-int mem_x;  //  positions of the memory when called
-int mem_y;
-int energy;
-int itchUp;     //  (0: no itch, >0: itch w/ spaces avalible) itch for open space above
-int itchDown;   //  (0: no itch, >0: itch w/ spaces avalible) itch for open space downward
-int itchLeft;   //  (0: no itch, >0: itch w/ spaces avalible) itch for open space to the left
-int itchRight;
+extern int spaces;
+extern int itchRight;
+extern int itchLeft;
+extern int itchDown;
+extern int itchUp;
+extern int energy;
+extern int mem_c;
+extern int mem_r;
+extern int pos_c;
+extern int pos_r;

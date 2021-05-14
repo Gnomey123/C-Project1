@@ -32,7 +32,7 @@ void clear () {
 }
 
 // return the value on the stack's top but does not remove it
-void peek (int *x,int *y) {
+void peek () {
 	if(empty() == 1)
 	{
 		printf("\n[ERROR] peeked with emtpy memory!\n");
@@ -40,13 +40,13 @@ void peek (int *x,int *y) {
 
 	else
 	{
-		x = stack[ top - 1][0];
-		y = stack[ top - 1][1];
+		mem_r = stack [ top - 1][0];
+		mem_c = stack [ top - 1][1];
 	}
 	
 }
 
-void pop (int *x, int *y) {
+void pop () {
 	
 	if(empty() == 1)
 	{
@@ -56,8 +56,8 @@ void pop (int *x, int *y) {
 	{
 	
 
-	x = stack [ top - 1][0];
-	y = stack [ top - 1][1];
+	mem_r = stack [ top - 1][0];
+	mem_c = stack [ top - 1][1];
 	
 	if(top > 0)
 	top--;                        // changes the top of the stack; removes the value on top
@@ -65,7 +65,7 @@ void pop (int *x, int *y) {
 	}
 }
 
-void push (int x, int y) {
+void push () {
 	if(full() == 1)
 	{
 		printf("\n[ERROR] pushed beyond the max STACK_SIZE! (STACK_SIZE = %d) (full = %d)\n", STACK_SIZE, full());
@@ -73,8 +73,8 @@ void push (int x, int y) {
 	
 	else
 	{
-	stack[top][0] = x;
-	stack[top][1] = y;
+	stack[top][0] = pos_r;
+	stack[top][1] = pos_c;
 	
 	top++;
 	}

@@ -1,18 +1,15 @@
-
-// stack function declarations
-
-int empty ();   // declaration
-
-int full ();
-
-void clear ();
-
-void peek (int *x, int *y);
-
-int pop (int *x, int *y);
-
-void push (int x, int y);   // we do not have to specify the name of the parameter
-
-
-
-
+#include "config.h"
+/* This file was automatically generated.  Do not edit! */
+#undef INTERFACE
+extern int pos_c;
+extern int pos_r;
+void push();
+void pop();
+extern int mem_c;
+extern int mem_r;
+void peek();
+void clear();
+int full();
+int empty();
+extern int top;
+extern int stack[STACK_SIZE][2];

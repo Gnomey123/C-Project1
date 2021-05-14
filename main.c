@@ -14,27 +14,37 @@ int main()
 {
     int x, y;
 	//char *fileDir = "maze_environment.txt";
-
-    char *fileDir = "maze.txt";
+    char fileDir[LENGTH] = "maze.txt";
   
-    mazeGen(99, 99);
+    //mazeGen(99, 99);
     
-    mazeMatrixGen(fileDir);
-    printMatrix();
+    mazeMatrixGen(&fileDir);
+    //printMatrix();
 
-    pos_r = 7;
-    pos_c = 4;
+    pos_r = 1;
+    pos_c = 5;
     
     CWR();
+    printf("itchRight=%d , spaces=%d\n",itchRight, spaces);
+    //BJPI();
     
-    BJPI();
-    
-    
-   /* if(x=1)
-    {
-    	/CW_R(r, c);
-    	
-    	
-	}
-	*/
+
+   /*
+   //   I wanna see the ant moving in the maze to make it easier to keep track of our algorithm, so maybe
+   while(1)
+   {
+        if(killCommand())
+        {
+            break;
+        }
+
+        followAlgorithm();   // reads algorithm list (array of commands) and executes functions according to their id
+
+        viewMapMatrix(); // shows the maze with the ant's location (which is why i made it a different )
+        sleep(1); // give a chance for the user to see the maze
+        Clrscr();    // clears screen, basically animating the process
+   }
+   */
+
+    //printMatrix();
 }
