@@ -64,18 +64,15 @@ int main()
 	    	{
 	    		//*Jump to left*
 	    		
-	    		if(memEmpty)
-	    		{
-	    			//*remember spot*
-	    			//*move 1 right, place marker, peek and backtrace to mem to go to original spot*
-				}
 	    		
 	    		//check if deadend
 				if((rightAvl + upAvl + downAvl == 0))
 				{
-					//*pop and go to last spot and place marker*
-					//*keep going to last spot until mem empty*
+					// *pop and go to last spot and place marker (with backtrace)*
+					//*keep going to last spot until mem empty (with backtrace)*
 				}
+
+				//check if in intersect
 				else if(((leftAvl + upAvl + downAvl > 1))) 
 				{
 					//*remember pos*
@@ -87,18 +84,16 @@ int main()
 	    	{
 	    		//*Jump to right*
 	    		
-	    		if(memEmpty)
-	    		{
-	    			//*remember spot*
-	    			//*move 1 left, place marker, peek and backtrace to mem to go to original spot*
-				}
+
 	    		
 	    		//check if deadend	    		
 				if((leftAvl + upAvl + downAvl == 0))
 				{
-					//*pop and go to last spot and place marker*
-					//*keep going to last spot until mem empty*
+					// *pop and go to last spot and place marker (with backtrace)*
+					//*keep going to last spot until mem empty (with backtrace)*
 				}
+
+				//check if in intersect
 				else if(((leftAvl + upAvl + downAvl > 1))) 
 				{
 					//*remember pos*
@@ -109,20 +104,17 @@ int main()
 			if(upLeastSpace)
 	    	{
 				//*Jump up*
-	
-				if(memEmpty)
-	    		{
-	    			//*remember spot*
-	    			//*move 1 down, place marker, peek and backtrace to mem to go to original spot*
-				}
+
 				
 	    		//check if deadend				
 				if((rightAvl + leftAvl + downAvl == 0))
 				{
-					exploring = 0;
-					//*pop and go to last spot and place marker*
-					//*keep going to last spot until mem empty*
+					
+					// *pop and go to last spot and place marker (with backtrace)*
+					//*keep going to last spot until mem empty (with backtrace)*
 				} 
+
+				//check if in intersect
 				else if(((rightAvl + leftAvl + downAvl > 1))) 
 				{
 					//*remember pos*
@@ -135,18 +127,15 @@ int main()
 	    		//*Jump down*
 	
 	
-				if(memEmpty)
-	    		{
-	    			//*remember spot*
-	    			//*move 1 up, place marker, peek and backtrace to mem to go to original spot*
-				}
 				
 	    		//check if deadend				
 				if((rightAvl + upAvl + downAvl == 0))
 				{
-					//*pop and go to last spot and place marker*
-					//*keep going to last spot until mem empty*
+					// *pop and go to last spot and place marker (with backtrace)*
+					//*keep going to last spot until mem empty (with backtrace)*
 				}
+				
+				//check if in intersect
 				else if(((rightAvl + upAvl + downAvl > 1))) 
 				{
 					//*remember pos*
