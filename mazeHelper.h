@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include "config.h"
 /* This file was automatically generated.  Do not edit! */
 #undef INTERFACE
+#include "config.h"
+#include <stdio.h>
 extern int itchDown;
 void CW_D(int r,int c);
 extern int itchUp;

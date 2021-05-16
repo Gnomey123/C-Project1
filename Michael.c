@@ -1,19 +1,21 @@
 #include "stack.h"
 #include "config.h"
+#include "Michael.h"
 #include "mazeHelper.h"
 #include <stdio.h>
+#include <stdlib.h>
 
-extern int pos_r;  //  position value
-extern int pos_c;
-extern int mem_r;  //  positions of the memory when called
-extern int mem_c;
-extern int energy;
-extern int itchUp;     //  (0: no itch, 1 itch)
-extern int itchDown;   //  (0: no itch, 1 itch)
-extern int itchLeft;   //  (0: no itch, 1 itch)
-extern int itchRight;  //  (0: no itch, 1 itch)
-extern int spaces;     // whenever there's an itch, spaces will represnet how much space there is (0 being wall in front, 1+ being spaces to move)
-extern int gold;       // for the gold collected
+ int pos_r;  //  position value
+ int pos_c;
+ int mem_r;  //  positions of the memory when called
+ int mem_c;
+ int energy;
+ int itchUp;     //  (0: no itch, 1 itch)
+ int itchDown;   //  (0: no itch, 1 itch)
+ int itchLeft;   //  (0: no itch, 1 itch)
+ int itchRight;  //  (0: no itch, 1 itch)
+ int spaces;     // whenever there's an itch, spaces will represnet how much space there is (0 being wall in front, 1+ being spaces to move)
+ int gold;       // for the gold collected
 
 //  the ant marks its current position using a chemical called pheromone.
 void MARK()
@@ -29,11 +31,14 @@ void runTick()
 	
 	log = fopen("log.txt", "a");
 	
-	
-	if(maze[pos_r][pos_c] == Gold)
+	fprintf(log, "\n[DEBUG]: loc: (%d|%d), gold=%d,energy=%d, topStack=%d\n", pos_r, pos_c, gold, energy, top);
+	if(maze[pos_r][pos_c] == '@')
 	{
+		gold++;
 		maze[pos_r][pos_c] ==" ";
-		fprintf(log, "GOLD COLLECTED AT (%d|%d) TOT=%d\n", pos_r, pos_c, gold);
+		fprintf(log, "GOLD COLLECTED AT (%d|%d) TOT=%d\nDEBUG: energy=&d, topStack=%d\n", pos_r, pos_c, gold, energy, top);
+		
+		
 	}
 	if(energy <= 0)
 	{

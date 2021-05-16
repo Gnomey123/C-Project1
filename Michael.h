@@ -1,13 +1,16 @@
 /* This file was automatically generated.  Do not edit! */
 #undef INTERFACE
+#include "config.h"
 int killCommand();
 void BACKTRACK();
 void CJPI();
 void BJPI();
 void clear();
 void CLEAR();
+void peek();
 void PEEK();
 void pop();
+int empty();
 void POP();
 void push();
 void PUSH();
@@ -23,9 +26,13 @@ void MOVE_D();
 void MOVE_U();
 void MOVE_R();
 void MOVE_L();
+int full();
+extern char maze[LENGTH][LENGTH];
+void runTick();
 void placeMarker(int r,int c);
 void consume(int cost);
 void MARK();
+extern int gold;
 extern int spaces;
 extern int itchRight;
 extern int itchLeft;
@@ -36,4 +43,3 @@ extern int mem_c;
 extern int mem_r;
 extern int pos_c;
 extern int pos_r;
-extern int gold; 
