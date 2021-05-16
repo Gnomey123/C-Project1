@@ -1,1103 +1,490 @@
-GOLD COLLECTED AT (1|5) TOT=0
-GOLD COLLECTED AT (1|5) TOT=0
-GOLD COLLECTED AT (1|10) TOT=0
-GOLD COLLECTED AT (1|28) TOT=0
-GOLD COLLECTED AT (1|45) TOT=0
-GOLD COLLECTED AT (1|46) TOT=0
-GOLD COLLECTED AT (1|50) TOT=0
-GOLD COLLECTED AT (1|61) TOT=0
-GOLD COLLECTED AT (1|62) TOT=0
-GOLD COLLECTED AT (1|63) TOT=0
-GOLD COLLECTED AT (1|70) TOT=0
-GOLD COLLECTED AT (1|75) TOT=0
-GOLD COLLECTED AT (1|76) TOT=0
-GOLD COLLECTED AT (1|84) TOT=0
-GOLD COLLECTED AT (1|85) TOT=0
-GOLD COLLECTED AT (1|85) TOT=0
-GOLD COLLECTED AT (1|86) TOT=0
-GOLD COLLECTED AT (1|5) TOT=1
-DEBUG: energy=&d, topStack=9996
-GOLD COLLECTED AT (1|5) TOT=2
-DEBUG: energy=&d, topStack=9996
-GOLD COLLECTED AT (1|10) TOT=3
-DEBUG: energy=&d, topStack=9971
-GOLD COLLECTED AT (1|28) TOT=4
-DEBUG: energy=&d, topStack=9874
-GOLD COLLECTED AT (1|45) TOT=5
-DEBUG: energy=&d, topStack=9782
-GOLD COLLECTED AT (1|46) TOT=6
-DEBUG: energy=&d, topStack=9777
-GOLD COLLECTED AT (1|50) TOT=7
-DEBUG: energy=&d, topStack=9757
-GOLD COLLECTED AT (1|61) TOT=8
-DEBUG: energy=&d, topStack=9695
-GOLD COLLECTED AT (1|62) TOT=9
-DEBUG: energy=&d, topStack=9690
-GOLD COLLECTED AT (1|63) TOT=10
-DEBUG: energy=&d, topStack=9685
-GOLD COLLECTED AT (1|70) TOT=11
-DEBUG: energy=&d, topStack=9643
-GOLD COLLECTED AT (1|75) TOT=12
-DEBUG: energy=&d, topStack=9618
-GOLD COLLECTED AT (1|76) TOT=13
-DEBUG: energy=&d, topStack=9613
-GOLD COLLECTED AT (1|84) TOT=14
-DEBUG: energy=&d, topStack=9573
-GOLD COLLECTED AT (1|85) TOT=15
-DEBUG: energy=&d, topStack=9568
-GOLD COLLECTED AT (1|85) TOT=16
-DEBUG: energy=&d, topStack=9568
-GOLD COLLECTED AT (1|86) TOT=17
-DEBUG: energy=&d, topStack=9556
 
-[DEBUG]: loc: (1|5), gold=0,energy=9996, topStack=0
-GOLD COLLECTED AT (1|5) TOT=1
-DEBUG: energy=&d, topStack=9996
-
-[DEBUG]: loc: (1|5), gold=1,energy=9996, topStack=0
-GOLD COLLECTED AT (1|5) TOT=2
-DEBUG: energy=&d, topStack=9996
-
-[DEBUG]: loc: (1|6), gold=2,energy=9991, topStack=0
-
-[DEBUG]: loc: (1|7), gold=2,energy=9986, topStack=0
-
-[DEBUG]: loc: (1|8), gold=2,energy=9981, topStack=0
-
-[DEBUG]: loc: (1|9), gold=2,energy=9976, topStack=0
-
-[DEBUG]: loc: (1|10), gold=2,energy=9971, topStack=0
-GOLD COLLECTED AT (1|10) TOT=3
-DEBUG: energy=&d, topStack=9971
-
-[DEBUG]: loc: (1|11), gold=3,energy=9966, topStack=0
-
-[DEBUG]: loc: (1|12), gold=3,energy=9961, topStack=0
-
-[DEBUG]: loc: (1|13), gold=3,energy=9956, topStack=0
-
-[DEBUG]: loc: (1|14), gold=3,energy=9951, topStack=0
-
-[DEBUG]: loc: (1|15), gold=3,energy=9946, topStack=0
-
-[DEBUG]: loc: (1|16), gold=3,energy=9941, topStack=0
-
-[DEBUG]: loc: (1|17), gold=3,energy=9936, topStack=0
-
-[DEBUG]: loc: (1|18), gold=3,energy=9931, topStack=0
-
-[DEBUG]: loc: (1|19), gold=3,energy=9926, topStack=0
-
-[DEBUG]: loc: (1|20), gold=3,energy=9921, topStack=0
-
-[DEBUG]: loc: (1|21), gold=3,energy=9916, topStack=0
-
-[DEBUG]: loc: (1|21), gold=3,energy=9916, topStack=0
-
-[DEBUG]: loc: (1|21), gold=3,energy=9913, topStack=0
-
-[DEBUG]: loc: (1|21), gold=3,energy=9909, topStack=0
-
-[DEBUG]: loc: (1|21), gold=3,energy=9909, topStack=0
-
-[DEBUG]: loc: (1|22), gold=3,energy=9904, topStack=0
-
-[DEBUG]: loc: (1|23), gold=3,energy=9899, topStack=0
-
-[DEBUG]: loc: (1|24), gold=3,energy=9894, topStack=0
-
-[DEBUG]: loc: (1|25), gold=3,energy=9889, topStack=0
-
-[DEBUG]: loc: (1|26), gold=3,energy=9884, topStack=0
-
-[DEBUG]: loc: (1|27), gold=3,energy=9879, topStack=0
-
-[DEBUG]: loc: (1|28), gold=3,energy=9874, topStack=0
-GOLD COLLECTED AT (1|28) TOT=4
-DEBUG: energy=&d, topStack=9874
-
-[DEBUG]: loc: (1|29), gold=4,energy=9869, topStack=0
-
-[DEBUG]: loc: (1|30), gold=4,energy=9864, topStack=0
-
-[DEBUG]: loc: (1|31), gold=4,energy=9859, topStack=0
-
-[DEBUG]: loc: (1|32), gold=4,energy=9854, topStack=0
-
-[DEBUG]: loc: (1|33), gold=4,energy=9849, topStack=0
-
-[DEBUG]: loc: (1|34), gold=4,energy=9844, topStack=0
-
-[DEBUG]: loc: (1|35), gold=4,energy=9839, topStack=0
-
-[DEBUG]: loc: (1|36), gold=4,energy=9834, topStack=0
-
-[DEBUG]: loc: (1|37), gold=4,energy=9829, topStack=0
-
-[DEBUG]: loc: (1|37), gold=4,energy=9829, topStack=0
-
-[DEBUG]: loc: (1|37), gold=4,energy=9826, topStack=0
-
-[DEBUG]: loc: (1|37), gold=4,energy=9822, topStack=0
-
-[DEBUG]: loc: (1|37), gold=4,energy=9822, topStack=0
-
-[DEBUG]: loc: (1|38), gold=4,energy=9817, topStack=0
-
-[DEBUG]: loc: (1|39), gold=4,energy=9812, topStack=0
-
-[DEBUG]: loc: (1|40), gold=4,energy=9807, topStack=0
-
-[DEBUG]: loc: (1|41), gold=4,energy=9802, topStack=0
-
-[DEBUG]: loc: (1|42), gold=4,energy=9797, topStack=0
-
-[DEBUG]: loc: (1|43), gold=4,energy=9792, topStack=0
-
-[DEBUG]: loc: (1|44), gold=4,energy=9787, topStack=0
-
-[DEBUG]: loc: (1|45), gold=4,energy=9782, topStack=0
-GOLD COLLECTED AT (1|45) TOT=5
-DEBUG: energy=&d, topStack=9782
-
-[DEBUG]: loc: (1|46), gold=5,energy=9777, topStack=0
-GOLD COLLECTED AT (1|46) TOT=6
-DEBUG: energy=&d, topStack=9777
-
-[DEBUG]: loc: (1|47), gold=6,energy=9772, topStack=0
-
-[DEBUG]: loc: (1|48), gold=6,energy=9767, topStack=0
-
-[DEBUG]: loc: (1|49), gold=6,energy=9762, topStack=0
-
-[DEBUG]: loc: (1|50), gold=6,energy=9757, topStack=0
-GOLD COLLECTED AT (1|50) TOT=7
-DEBUG: energy=&d, topStack=9757
-
-[DEBUG]: loc: (1|51), gold=7,energy=9752, topStack=0
-
-[DEBUG]: loc: (1|52), gold=7,energy=9747, topStack=0
-
-[DEBUG]: loc: (1|53), gold=7,energy=9742, topStack=0
-
-[DEBUG]: loc: (1|53), gold=7,energy=9742, topStack=0
-
-[DEBUG]: loc: (1|53), gold=7,energy=9739, topStack=0
-
-[DEBUG]: loc: (1|53), gold=7,energy=9735, topStack=0
-
-[DEBUG]: loc: (1|53), gold=7,energy=9735, topStack=0
-
-[DEBUG]: loc: (1|54), gold=7,energy=9730, topStack=0
-
-[DEBUG]: loc: (1|55), gold=7,energy=9725, topStack=0
-
-[DEBUG]: loc: (1|56), gold=7,energy=9720, topStack=0
-
-[DEBUG]: loc: (1|57), gold=7,energy=9715, topStack=0
-
-[DEBUG]: loc: (1|58), gold=7,energy=9710, topStack=0
-
-[DEBUG]: loc: (1|59), gold=7,energy=9705, topStack=0
-
-[DEBUG]: loc: (1|60), gold=7,energy=9700, topStack=0
-
-[DEBUG]: loc: (1|61), gold=7,energy=9695, topStack=0
-GOLD COLLECTED AT (1|61) TOT=8
-DEBUG: energy=&d, topStack=9695
-
-[DEBUG]: loc: (1|62), gold=8,energy=9690, topStack=0
-GOLD COLLECTED AT (1|62) TOT=9
-DEBUG: energy=&d, topStack=9690
-
-[DEBUG]: loc: (1|63), gold=9,energy=9685, topStack=0
-GOLD COLLECTED AT (1|63) TOT=10
-DEBUG: energy=&d, topStack=9685
-
-[DEBUG]: loc: (1|64), gold=10,energy=9680, topStack=0
-
-[DEBUG]: loc: (1|65), gold=10,energy=9675, topStack=0
-
-[DEBUG]: loc: (1|66), gold=10,energy=9670, topStack=0
-
-[DEBUG]: loc: (1|67), gold=10,energy=9665, topStack=0
-
-[DEBUG]: loc: (1|68), gold=10,energy=9660, topStack=0
-
-[DEBUG]: loc: (1|69), gold=10,energy=9655, topStack=0
-
-[DEBUG]: loc: (1|69), gold=10,energy=9655, topStack=0
-
-[DEBUG]: loc: (1|69), gold=10,energy=9652, topStack=0
-
-[DEBUG]: loc: (1|69), gold=10,energy=9648, topStack=0
-
-[DEBUG]: loc: (1|69), gold=10,energy=9648, topStack=0
-
-[DEBUG]: loc: (1|70), gold=10,energy=9643, topStack=0
-GOLD COLLECTED AT (1|70) TOT=11
-DEBUG: energy=&d, topStack=9643
-
-[DEBUG]: loc: (1|71), gold=11,energy=9638, topStack=0
-
-[DEBUG]: loc: (1|72), gold=11,energy=9633, topStack=0
-
-[DEBUG]: loc: (1|73), gold=11,energy=9628, topStack=0
-
-[DEBUG]: loc: (1|74), gold=11,energy=9623, topStack=0
-
-[DEBUG]: loc: (1|75), gold=11,energy=9618, topStack=0
-GOLD COLLECTED AT (1|75) TOT=12
-DEBUG: energy=&d, topStack=9618
-
-[DEBUG]: loc: (1|76), gold=12,energy=9613, topStack=0
-GOLD COLLECTED AT (1|76) TOT=13
-DEBUG: energy=&d, topStack=9613
-
-[DEBUG]: loc: (1|77), gold=13,energy=9608, topStack=0
-
-[DEBUG]: loc: (1|78), gold=13,energy=9603, topStack=0
-
-[DEBUG]: loc: (1|79), gold=13,energy=9598, topStack=0
-
-[DEBUG]: loc: (1|80), gold=13,energy=9593, topStack=0
-
-[DEBUG]: loc: (1|81), gold=13,energy=9588, topStack=0
-
-[DEBUG]: loc: (1|82), gold=13,energy=9583, topStack=0
-
-[DEBUG]: loc: (1|83), gold=13,energy=9578, topStack=0
-
-[DEBUG]: loc: (1|84), gold=13,energy=9573, topStack=0
-GOLD COLLECTED AT (1|84) TOT=14
-DEBUG: energy=&d, topStack=9573
-
-[DEBUG]: loc: (1|85), gold=14,energy=9568, topStack=0
-GOLD COLLECTED AT (1|85) TOT=15
-DEBUG: energy=&d, topStack=9568
-
-[DEBUG]: loc: (1|85), gold=15,energy=9568, topStack=0
-GOLD COLLECTED AT (1|85) TOT=16
-DEBUG: energy=&d, topStack=9568
-
-[DEBUG]: loc: (1|85), gold=16,energy=9565, topStack=0
-
-[DEBUG]: loc: (1|85), gold=16,energy=9561, topStack=0
-
-[DEBUG]: loc: (1|85), gold=16,energy=9561, topStack=0
-
-[DEBUG]: loc: (1|86), gold=16,energy=9556, topStack=0
-GOLD COLLECTED AT (1|86) TOT=17
-DEBUG: energy=&d, topStack=9556
-
-[DEBUG]: loc: (1|87), gold=17,energy=9551, topStack=0
-
-[DEBUG]: loc: (1|88), gold=17,energy=9546, topStack=0
-
-[DEBUG]: loc: (1|89), gold=17,energy=9541, topStack=0
-
-[DEBUG]: loc: (1|90), gold=17,energy=9536, topStack=0
-
-[DEBUG]: loc: (1|91), gold=17,energy=9531, topStack=0
-
-[DEBUG]: loc: (1|92), gold=17,energy=9526, topStack=0
-
-[DEBUG]: loc: (1|93), gold=17,energy=9521, topStack=0
-
-[DEBUG]: loc: (1|94), gold=17,energy=9516, topStack=0
-
-[DEBUG]: loc: (1|95), gold=17,energy=9511, topStack=0
-
-[DEBUG]: loc: (1|96), gold=17,energy=9506, topStack=0
-
-[DEBUG]: loc: (1|97), gold=17,energy=9501, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9496, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9491, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9486, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9481, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9481, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9478, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9474, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9474, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9469, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9464, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9459, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9454, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9449, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9444, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9439, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9434, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9429, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9424, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9419, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9414, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9409, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9404, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9399, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9394, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9394, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9391, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9387, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9387, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9382, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9377, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9372, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9367, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9362, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9357, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9352, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9347, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9342, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9337, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9332, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9327, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9322, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9317, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9312, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9307, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9307, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9304, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9300, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9300, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9295, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9290, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9285, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9280, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9275, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9270, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9265, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9260, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9255, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9250, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9245, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9240, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9235, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9230, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9225, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9220, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9220, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9217, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9213, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9213, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9208, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9203, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9198, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9193, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9188, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9183, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9178, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9173, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9168, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9163, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9158, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9153, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9148, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9143, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9138, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9133, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9133, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9130, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9126, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9126, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9121, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9116, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9111, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9106, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9101, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9096, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9091, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9086, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9081, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9076, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9071, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9066, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9061, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9056, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9051, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9046, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9046, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9043, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9039, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9039, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9034, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9029, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9024, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9019, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9014, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9009, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=9004, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8999, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8994, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8989, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8984, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8979, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8974, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8969, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8964, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8959, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8959, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8956, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8952, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8952, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8947, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8942, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8937, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8932, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8927, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8922, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8917, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8912, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8907, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8902, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8897, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8892, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8887, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8882, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8877, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8872, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8872, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8869, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8865, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8865, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8860, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8855, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8850, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8845, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8840, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8835, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8830, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8825, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8820, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8815, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8810, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8805, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8800, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8795, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8790, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8785, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8785, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8782, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8778, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8778, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8773, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8768, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8763, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8758, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8753, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8748, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8743, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8738, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8733, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8728, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8723, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8718, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8713, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8708, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8703, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8698, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8698, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8695, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8691, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8691, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8686, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8681, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8676, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8671, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8666, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8661, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8656, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8651, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8646, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8641, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8636, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8631, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8626, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8621, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8616, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8611, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8611, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8608, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8604, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8604, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8599, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8594, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8589, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8584, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8579, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8574, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8569, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8564, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8559, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8554, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8549, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8544, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8539, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8534, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8529, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8524, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8524, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8521, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8517, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8517, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8512, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8507, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8502, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8497, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8492, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8487, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8482, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8477, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8472, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8467, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8462, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8457, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8452, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8447, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8442, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8437, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8437, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8434, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8430, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8430, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8425, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8420, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8415, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8410, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8405, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8400, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8395, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8390, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8385, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8380, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8375, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8370, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8365, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8360, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8355, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8350, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8350, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8347, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8343, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8343, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8338, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8333, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8328, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8323, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8318, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8313, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8308, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8303, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8298, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8293, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8288, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8283, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8278, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8273, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8268, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8263, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8263, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8260, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8256, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8256, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8251, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8246, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8241, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8236, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8231, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8226, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8221, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8216, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8211, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8206, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8201, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8196, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8191, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8186, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8181, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8176, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8176, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8173, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8169, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8169, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8164, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8159, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8154, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8149, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8144, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8139, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8134, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8129, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8124, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8119, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8114, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8109, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8104, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8099, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8094, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8089, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8089, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8086, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8082, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8082, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8077, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8072, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8067, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8062, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8057, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8052, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8047, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8042, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8037, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8032, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8027, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8022, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8017, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8012, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8007, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8002, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=8002, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7999, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7995, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7995, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7990, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7985, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7980, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7975, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7970, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7965, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7960, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7955, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7950, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7945, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7940, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7935, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7930, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7925, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7920, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7915, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7915, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7912, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7908, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7908, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7903, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7898, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7893, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7888, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7883, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7878, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7873, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7868, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7863, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7858, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7853, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7848, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7843, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7838, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7833, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7828, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7828, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7825, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7821, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7821, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7816, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7811, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7806, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7801, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7796, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7791, topStack=0
-
-[DEBUG]: loc: (1|98), gold=17,energy=7786, topStack=0
+NEW START
+
+
+
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(((MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+((MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(MICHEAL HAS DIED OF EXHAUSTION AT (97|97)
+
+END OF SESSION
+
+NEW START
+
+
+
+( )(11|4): ( )(11|4): MICHEAL CHECKED FOWARD AND WAS AVALIBLE (ITCH)
+( )(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CJPId FOWARD
+( )(10|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(10|4): MICHEAL CHECKED RIGHT AND WAS AVALIBLE (ITCH)
+( )(10|4): MICHEAL CJPId RIGHT
+( )(10|5): MICHEAL CHECKED FOWARD AND WAS AVALIBLE (ITCH)
+( )(10|5): MICHEAL CHECKED RIGHT AND WAS AVALIBLE (ITCH)
+( )(10|5): MICHEAL CJPId RIGHT
+( )(10|6): MICHEAL CHECKED FOWARD AND WAS AVALIBLE (ITCH)
+( )(10|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(10|6): MICHEAL CJPId FOWARD
+( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL HAS DIED OF EXHAUSTION AT (9|6)
+
+END OF SESSION
+
+NEW START
+
+
+
+( )(11|4): ( )(11|4): MICHEAL CHECKED FOWARD AND WAS AVALIBLE (ITCH)
+( )(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CJPId FOWARD
+( )(10|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(10|4): MICHEAL CHECKED RIGHT AND WAS AVALIBLE (ITCH)
+( )(10|4): MICHEAL CJPId RIGHT
+( )(10|5): MICHEAL CHECKED FOWARD AND WAS AVALIBLE (ITCH)
+( )(10|5): MICHEAL CHECKED RIGHT AND WAS AVALIBLE (ITCH)
+( )(10|5): MICHEAL CJPId RIGHT
+( )(10|6): MICHEAL CHECKED FOWARD AND WAS AVALIBLE (ITCH)
+( )(10|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(10|6): MICHEAL CJPId FOWARD
+( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL HAS DIED OF EXHAUSTION AT (9|6)
+
+END OF SESSION
+
+NEW START
+
+
+
+( )(11|4): ( )(11|4): MICHEAL CHECKED FOWARD AND WAS AVALIBLE (ITCH)
+( )(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CJPId FOWARD
+( )(10|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(10|4): MICHEAL CHECKED RIGHT AND WAS AVALIBLE (ITCH)
+( )(10|4): MICHEAL CJPId RIGHT
+( )(10|5): MICHEAL CHECKED FOWARD AND WAS AVALIBLE (ITCH)
+( )(10|5): MICHEAL CHECKED RIGHT AND WAS AVALIBLE (ITCH)
+( )(10|5): MICHEAL CJPId RIGHT
+( )(10|6): MICHEAL CHECKED FOWARD AND WAS AVALIBLE (ITCH)
+( )(10|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(10|6): MICHEAL CJPId FOWARD
+( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): ( )(9|6): ( )(9|6): MICHEAL CHECKED LEFT AND WAS AVALIBLE (ITCH)
+( )(9|6): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(9|6): MICHEAL CJPId LEFT
+(@)(9|5): GOLD COLLECTED AT (9|5) TOT=1
+DEBUG: energy=&d, topStack=347
+MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): (.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): (.)(9|5): (.)(9|5): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(.)(9|5): MICHEAL CHECKED BACKWARD AND WAS AVALIBLE (ITCH)
+(.)(9|5): MICHEAL CJPId BACKWARD
+( )(10|5): MICHEAL CHECKED LEFT AND WAS AVALIBLE (ITCH)
+( )(10|5): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(10|5): MICHEAL CJPId LEFT
+( )(10|4): MICHEAL CHECKED LEFT AND WAS AVALIBLE (ITCH)
+( )(10|4): MICHEAL CHECKED BACKWARD AND WAS AVALIBLE (ITCH)
+( )(10|4): MICHEAL CJPId BACKWARD
+( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+( )(11|4): ( )(11|4): ( )(11|4): MICHEAL PLACED MARKER AT (11|4)
+(?)(11|4): (?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): (?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): (?)(11|4): MICHEAL PLACED MARKER AT (11|4)
+(?)(11|4): (?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED RIGHT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): (?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): MICHEAL CHECKED FOWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): (?)(11|4): (?)(11|4): MICHEAL CHECKED LEFT AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL CHECKED BACKWARD AND WAS UNAVALIBLE (NO ITCH)
+(?)(11|4): MICHEAL HAS DIED OF EXHAUSTION AT (11|4)
+
+END OF SESSION

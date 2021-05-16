@@ -1,8 +1,3 @@
-#define OpenSpace ' '
-#define Wall '|'
-#define Gold '@'
-#define Marker '#'
-#define Outside '@'
-#define STACK_SIZE 100
+#define STACK_SIZE 10
 #define LENGTH 1000
-#define INIT_ENERGY 10000
+#define INIT_ENERGY 40000

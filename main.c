@@ -12,15 +12,52 @@
 #include <ctype.h>
 #include <stdlib.h>
 
+
+char openSpace = ' ';
+char marker = '?';
+char wall = '*';
+
+char goldCollected =  '.';
+char goldd = '@';
+
+
+
+char getWallChar()
+{
+	return wall;
+}
+char getOpenSpaceChar()
+{
+	return openSpace;
+}
+
+char getMarkerChar()
+{
+	return marker;
+}
+
+char getGoldChar()
+{
+	return goldd;
+}
+
+char getGoldCollectedChar()
+{
+	return goldCollected;
+}
+
+
+
+
 void rpMan(int *i, int n, int t, int (*scriptData)[3])
 {
 	int ogI = *i, nScanner, tScanner;
 	int command;
-	for(nScanner = 0; nScanner < n; nScanner++)
+	for(tScanner = 0; tScanner < t; tScanner++)
 	{
-		for(tScanner = 0; tScanner < t-1; tScanner++)
+		for(nScanner = 1; nScanner <= n; nScanner++)
 		{
-			command = scriptData[ogI + tScanner + 1][0];
+			command = scriptData[ogI + nScanner][0];
 				switch(command)
 				{
 					case 1:
@@ -77,8 +114,11 @@ void rpMan(int *i, int n, int t, int (*scriptData)[3])
 					default:
 						break;
 			}
+	
+//		viewMapMatrix();
+		runTick();
 		}
-	runTick();
+	
 	}
 	
 	ogI = n + *i;
@@ -89,19 +129,24 @@ void rpMan(int *i, int n, int t, int (*scriptData)[3])
 
 int main()
 {
-    int x, y;
-	//char *fileDir = "maze_environment.txt";
-    char fileDir[LENGTH] = "maze.txt";
     
-    energy = INIT_ENERGY;
-  
+	
+	
+	int x, y;
+	//char *fileDir = "maze_environment.txt";
+    char fileDir[LENGTH] = "8_8maze.txt";
+    
+    setEnergy(400);
+  	
+	  
+	logger("\nNEW START\n\n\n\n");
     //mazeGen(99, 99);
     
     mazeMatrixGen(&fileDir);
     //printMatrix();
 
-    pos_r = 1;
-    pos_c = 5;
+	setPos_r(11);
+   	setPos_c(4);
     
     //CWR();
     //printf("itchRight=%d , spaces=%d\n",itchRight, spaces);
@@ -173,8 +218,8 @@ int main()
 			t = atoi(token);
 			
 			scriptData[i][0]=17;
-			scriptData[i][1]=t;
-			scriptData[i][2]=n;
+			scriptData[i][1]=n;
+			scriptData[i][2]=t;
 			
 		}
 		else
@@ -255,6 +300,7 @@ int main()
 				default:
 					break;
 			}
+//			viewMapMatrix();
 		runTick();
 		}
 	}
