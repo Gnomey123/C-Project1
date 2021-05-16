@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=1
 CompilerSettings=0;0;0;0;0;0;6;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0
-UnitCount=13
+UnitCount=14
 
 [VersionInfo]
 Major=1
@@ -179,4 +179,14 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 CompileCpp=0
+
+[Unit14]
+FileName=main.h
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
 
