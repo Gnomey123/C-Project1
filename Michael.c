@@ -3,23 +3,53 @@
 #include "mazeHelper.h"
 #include <stdio.h>
 
-int pos_r;  //  position value
-int pos_c;
-int mem_r;  //  positions of the memory when called
-int mem_c;
-int energy;
-int itchUp;     //  (0: no itch, 1 itch)
-int itchDown;   //  (0: no itch, 1 itch)
-int itchLeft;   //  (0: no itch, 1 itch)
-int itchRight;  //  (0: no itch, 1 itch)
-int spaces;     // whenever there's an itch, spaces will represnet how much space there is (0 being wall in front, 1+ being spaces to move)
-int gold;       // for the gold collected
+extern int pos_r;  //  position value
+extern int pos_c;
+extern int mem_r;  //  positions of the memory when called
+extern int mem_c;
+extern int energy;
+extern int itchUp;     //  (0: no itch, 1 itch)
+extern int itchDown;   //  (0: no itch, 1 itch)
+extern int itchLeft;   //  (0: no itch, 1 itch)
+extern int itchRight;  //  (0: no itch, 1 itch)
+extern int spaces;     // whenever there's an itch, spaces will represnet how much space there is (0 being wall in front, 1+ being spaces to move)
+extern int gold;       // for the gold collected
 
 //  the ant marks its current position using a chemical called pheromone.
 void MARK()
 {
 	consume(3);
 	placeMarker(pos_r, pos_c);
+}
+
+
+void runTick()
+{
+	FILE *log;
+	
+	log = fopen("log.txt", "a");
+	
+	
+	if(maze[pos_r][pos_c] == Gold)
+	{
+		maze[pos_r][pos_c] ==" ";
+		fprintf(log, "GOLD COLLECTED AT (%d|%d) TOT=%d\n", pos_r, pos_c, gold);
+	}
+	if(energy <= 0)
+	{
+		fprintf(log, "MICHEAL HAS DIED OF EXHAUSTION AT (%d|%d)\n", pos_r, pos_c);
+		fclose(log);
+		exit(0);
+	}
+	if(full == 1)
+	{
+		fprintf(log, "MICHEAL HAS DIED OF BIG BRAIN ISSUES AT (%d|%d)\n", pos_r, pos_c);
+		fclose(log);
+		exit(0);	
+	}
+	//TODO: add more logggis
+	
+	
 }
 
 // the ant is oriented weirdly. I would suggest taking it to the prof to proofcheck
@@ -124,9 +154,15 @@ void PUSH()
 //update (from NOAM): the pop command already deals with this by adding the popped values to mem_r and mem_c respectfully. PEEK also does this
 void POP()
 {
+	if(empty == 0)
+	{	
+	return;
+	}	
 	consume(4);
-	
 	pop(&mem_r, &mem_c);
+		
+	
+
 }
 
 // peeks the planar coordinates x and y from the top of the Michael’s stack for the
@@ -134,9 +170,12 @@ void POP()
 // same issue as POP()
 void PEEK()
 {
+	if(empty == 0)
+	{	
+	return;
+	}
 	consume(2);
-
-	pop(&mem_r, &mem_c);
+	peek(&mem_r, &mem_c);
 }
 
 // micheal clear stack. this is all there is to say.
@@ -153,6 +192,7 @@ void CLEAR()
 // will execute only when feeling itch. then jump to (pos_x + x) and (pos_y + y) position. This will remove itch, so itch boolean to false
 void BJPI()
 {
+	
 	consume(5);
 	
 	if((itchLeft+itchRight+itchUp+itchDown) > 1)
@@ -162,7 +202,7 @@ void BJPI()
 	}
 	if((itchLeft+itchRight+itchUp+itchDown) == 0)
 	{
-		printf("\n[ERROR] Jump called w/ no Itches\n");
+		printf("\n[NOTE] Jump called w/ no Itches\n");
 		return;
 	}
 	
@@ -213,7 +253,7 @@ void CJPI()
 	
 	if((itchLeft+itchRight+itchUp+itchDown) == 0)
 	{
-		printf("\n[ERROR] Jump called w/ no Itches\n");
+		printf("\n[NOTE] Jump called w/ no Itches\n");
 		return;
 	}
 	
@@ -240,11 +280,19 @@ void CJPI()
 //	Example: Michael executes a pop and finds the position <4,4>. Backtrack will move Michael back to this position
 void BACKTRACK()
 {
-	consume(2); //(NOAM) not sure if it should consume energy (prof seems to forget it exists). I simply put 6 case its part of 69 hehe gottem
-				//edit: 2 makes more sense when thinking about the fact that Poping takes 4 energy
 	
-	pos_r = mem_r;
-	pos_c = mem_c;
+	if((mem_r !=0) &&(mem_c !=0))
+	{
+		consume(2); //(NOAM) not sure if it should consume energy (prof seems to forget it exists). I simply put 6 case its part of 69 hehe gottem
+					//edit: 2 makes more sense when thinking about the fact that Poping takes 4 energy
+		
+		pos_r = mem_r;
+		pos_c = mem_c;
+		
+		mem_r = 0;
+		mem_c = 0;		
+	}
+
 	
 	
 }

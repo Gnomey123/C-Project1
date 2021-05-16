@@ -86,7 +86,7 @@ void viewMapMatrix()
 
 void placeMarker(int r, int c)
 {
-	maze[r][c] = '*';
+	maze[r][c] = Marker;
 }
 
 
