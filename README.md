@@ -6,4 +6,4 @@
 
 ## Author
 
-👤 **Noam Cicurel, Leeebab, Nebil**
+👤 **Noam Cicurel, Labeeb, Nebil**
